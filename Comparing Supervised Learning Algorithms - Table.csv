@@ -1,0 +1,7 @@
+Algorithm,Problem Type,Results interpretable by you?,Easy to explain algorithm to others?,Average predictive accuracy,Training speed,Prediction speed,Amount of parameter tuning needed (excluding feature selection),Performs well with small number of observations?,Handles lots of irrelevant features well (separates signal from noise)?,Automatically learns feature interactions?,Gives calibrated probabilities of class membership?,Parametric?,Features might need scaling?
+KNN,Either,Yes,Yes,Lower,Fast,Depends on n,Minimal,No,No,No,Yes,No,Yes
+Linear regression,Regression,Yes,Yes,Lower,Fast,Fast,None (excluding regularization),Yes,No,No,N/A,Yes,No (unless regularized)
+Logistic regression,Classification,Somewhat,Somewhat,Lower,Fast,Fast,None (excluding regularization),Yes,No,No,Yes,Yes,No (unless regularized)
+Decision trees,Either,Somewhat,Somewhat,Lower,Fast,Fast,Some,No,No,Yes,Possibly,No,No
+Random Forests,Either,A little,No,Higher,Slow,Moderate,Some,No,Yes (unless noise ratio is very high),Yes,Possibly,No,No
+Support Vector Machine,Either,A little,No,Higher,Slow,Depends,Some,Yes,Yes,Yes,Possibly,Yes,Yes
